@@ -28,42 +28,42 @@ Base URL: https://cloud.mongodb.com/api/atlas/v1.0/groups/{GROUP-ID}/clusters
 
 To create an API key for a project using the Atlas UI:
 
-1. Navigate to the Access Manager page for your project.
-   If it is not already displayed, select the organization that contains your desired project from the Organizations menu in the navigation bar.
+- Navigate to the Access Manager page for your project.
+  If it is not already displayed, select the organization that contains your desired project from the Organizations menu in the navigation bar.
 
-Select your desired project from the list of projects in the Projects page.
+- Select your desired project from the list of projects in the Projects page.
 
-Click the vertical ellipsis () next to your project name in the upper left corner and select Project Settings.
+- Click the vertical ellipsis () next to your project name in the upper left corner and select Project Settings.
 
-Click Access Manager in the navigation bar, then click your project.
+- Click Access Manager in the navigation bar, then click your project.
 
-2. Click Create API Key.
+- Click Create API Key.
 
-3. Enter the API Key Information.
-   On the Create API Key page:
+- Enter the API Key Information.
+  On the Create API Key page:
 
-Enter a Description.
+- Enter a Description.
 
-In the Project Permissions menu, select the new role or roles for the API key.
+- In the Project Permissions menu, select the new role or roles for the API key.
 
-4. Click Next.
+- Click Next.
 
-5. Copy and save the Public Key.
-   The public key acts as the username when making API requests.
+- Copy and save the Public Key.
+  The public key acts as the username when making API requests.
 
-6. Copy and save the Private Key.
-   The private key acts as the password when making API requests.
+- Copy and save the Private Key.
+  The private key acts as the password when making API requests.
 
-7. Add an API Access List Entry.
-   Click Add Access List Entry.
+- Add an API Access List Entry.
+  Click Add Access List Entry.
 
-Enter an IP address from which you want Atlas to accept API requests for this API Key.
+- Enter an IP address from which you want Atlas to accept API requests for this API Key.
 
-You can also click Use Current IP Address if the host you are using to access Atlas will also make API requests using this API Key.
+- You can also click Use Current IP Address if the host you are using to access Atlas will also make API requests using this API Key.
 
-Click Save.
+- Click Save.
 
-8. Click Done.
+- Click Done.
 
 ### 2. Pass values of Public Key and Private in parameters of Jenkins Pipiline.
 
